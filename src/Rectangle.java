@@ -1,4 +1,14 @@
 import java.text.DecimalFormat;
+
+/**
+ * @file Rectangle.java
+ * @date 2/2/23
+ * @author Simone Del Carlo
+ *
+ * @description Creates a rectangle with a width and height or a square with a side length.
+ * The use can also calculate the perimeter and area of the rectangle and print information
+ * about the Rectangle.
+ */
 public class Rectangle { //make public for CS A
 
     //instance variables
@@ -7,7 +17,9 @@ public class Rectangle { //make public for CS A
     private double area;
     private double perimeter;
 
-    //default constructor (make public for CS A)
+    /**
+     * @Description default constructor
+     */
     public Rectangle(){
         width = 1.0;
         height = 1.0;

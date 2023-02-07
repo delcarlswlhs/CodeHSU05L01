@@ -92,7 +92,16 @@ public class Rectangle { //make public for CS A
         return perimeter;
     }
 
+    //reset rectangle method
 
+    /**
+     * @description resets rectangle to a unit rectangle
+     * @param rect rectangle object you want to reset
+     */
+    public void resetRectangle(Rectangle rect){
+        rect.width = 1;
+        rect.height = 1;
+    }
 
     //toString method
     /**
